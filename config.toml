@@ -1,0 +1,4 @@
+[settings]
+visualizer_path = "D:/PYTHON/commit-parser/plantuml.jar"
+repository_path = "D:/PYTHON/commit-parser"
+since_date = "2022-01-01"
