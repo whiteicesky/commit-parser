@@ -11,5 +11,6 @@ class PlantUMLGenerator:
             if not parents:
                 lines.append(f'"{commit}"')
 
-        lines.append("}", "@enduml")
+        lines.append("}")
+        lines.append("@enduml")
         return "\n".join(lines)
