@@ -30,7 +30,7 @@ JAR-файл и Java Development Kit (файлы формата JAR запуск
 4. config.toml - конфигурационный файл, в котором указывается путь до .jar файла и java, а такэе дата с которой необходимо отслеживать коммиты.
    
 ## Запуск
-Запуск программы поддерживается как из командной строки так и из среды разработки.
+Запуск программы поддерживается как из командной строки так и из среды разработки. 
 1. В config.toml указываем необходимые пути и дату
 2. В visualizer.py указываем на 7 и 13 строчках путь до java.exe
 3. Запускаем main.py
@@ -38,7 +38,7 @@ JAR-файл и Java Development Kit (файлы формата JAR запуск
    
   ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/Screenshot_1.png)
 
-6. Созданная диаграмма:
+5. Созданная диаграмма:
    
   ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/output.png)
 
