@@ -9,6 +9,6 @@ class PlantUMLGenerator:
             for parent in parents:
                 lines.append(f'"{commit}" -> "{parent}"')
             # if not parents:
-            #     lines.append(f'"{commit}"')
+            #     lines.append(f'"{commit}" -> \"0\"')
         lines.append("@enduml")
         return "\n".join(lines)
