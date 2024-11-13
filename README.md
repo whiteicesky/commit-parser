@@ -36,34 +36,32 @@ JAR-файл и Java Development Kit (файлы формата JAR запуск
 3. Запускаем main.py
 4. Созданный .puml файл:
    
-  ![Screenshot 1](https://github.com/whiteicesky/shell_simulator/blob/main/Screenshot_1.png)
+  ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/Screenshot_1.png)
 
 6. Созданная диаграмма:
    
-  ![Screenshot 1](https://github.com/whiteicesky/shell_simulator/blob/main/Screenshot_1.png)
+  ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/output.png)
 
-Также для демонстрации работоспособности программы в ручную изменю .puml файл:
+Также для демонстрации работоспособности программы в ручную изменю .puml файл
 
-  ![Screenshot 1](https://github.com/whiteicesky/shell_simulator/blob/main/Screenshot_1.png)
+  ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/Screenshot_3.png)
 
-И с помощью следующей команды в консоли:
+И с помощью следующей команды в консоли
 
-  ![Screenshot 1](https://github.com/whiteicesky/shell_simulator/blob/main/Screenshot_1.png)
+  ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/Screenshot_2.png)
 
-Создам новую диаграмму:
+Создам новую диаграмму
 
-  ![Screenshot 1](https://github.com/whiteicesky/shell_simulator/blob/main/Screenshot_1.png)
+  ![Screenshot 1](https://github.com/whiteicesky/commit-parser/blob/master/output2.png)
 
 ## Тесты
-1. В консоли сменить директорию на cli_emulator, если это еще не сделано
-3. Активировать файл tests_vfs.py
+1. В консоли сменить директорию на ./commit-parser
+3. Запустить тесты следующей командой
    
    ```
-    python tests_vfs.py
+    python -m unittest discover -s tests
    ```
-Пример работы программы:
+Результат:
 
-![Screenshot 2](https://github.com/whiteicesky/shell_simulator/blob/main/Screenshot_2.png)
+![Screenshot 2](https://github.com/whiteicesky/commit-parser/blob/master/Screenshot_4.png)
 
-## Прочее
-В проекте также присутствует файл create_tar.py. Он только нужен для создания tar архива, основанного на какой-либо папке.
